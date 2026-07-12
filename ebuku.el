@@ -724,7 +724,7 @@ Argument EXCLUDE is a string: keywords to exclude from search results."
                         (beginning-of-line)
                         (let* ((end (point))
                                (comment-string
-                                (buffer-substring start (- end 2))))
+                                (buffer-substring start (- end 1))))
                           (setq comment
                                 (progn
                                   (string-match
