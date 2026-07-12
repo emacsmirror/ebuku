@@ -617,8 +617,8 @@ Argument EXCLUDE is a string: keywords to exclude from search results."
            ;; Title.
            "\\(.+?\\)"
            ;; Index number when not using '--print'.
-           "\\(?: \\[\\([[:digit:]]+\\)\\]\\)?"
-           ))
+           "\\(?: \\[\\([[:digit:]]+\\)\\]\\)?"))
+
          (title "")
          (index "")
          (url "")
